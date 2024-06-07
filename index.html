@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Member Form</title>
+</head>
+<body>
+    <form name="team-member-form" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="team-member-form">
+        <label for="trade">Trade:</label>
+        <select id="trade" name="trade">
+            <option value="SITE MANAGER">SITE MANAGER</option>
+            <option value="STOREMAN">STOREMAN</option>
+            <option value="DRIVER">DRIVER</option>
+            <option value="LABOURER">LABOURER</option>
+            <option value="PLUMBER">PLUMBER</option>
+        </select>
+        <br>
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+        <br>
+        <label for="surname">Surname:</label>
+        <input type="text" id="surname" name="surname" required>
+        <br>
+        <label for="cscs">CSCS:</label>
+        <input type="checkbox" id="cscs" name="cscs">
+        <br>
+        <label for="asb">ASB:</label>
+        <input type="checkbox" id="asb" name="asb">
+        <br>
+        <label for="reg-nr">Registration Number:</label>
+        <input type="text" id="reg-nr" name="reg-nr">
+        <br>
+        <label for="make">Make:</label>
+        <input type="text" id="make" name="make">
+        <br>
+        <label for="model">Model:</label>
+        <input type="text" id="model" name="model">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
